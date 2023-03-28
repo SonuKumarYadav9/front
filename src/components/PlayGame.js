@@ -46,7 +46,7 @@ const PlayGame = () => {
   return (
     <div className='box'>
     <div>
-        <h3>Lets Check Your Luck and Win this game</h3>
+        <h3 className='title'>Lets Check Your Luck and Win this game</h3>
         <input className='input' type='text' placeholder='Enter your Betting Number' value ={number} onChange={handleChange}  ></input>
 <button type='button' className='btn'  onClick={playHandle}>play</button>
 </div>
