@@ -1,6 +1,11 @@
 .box{
     display: inline-block;
     background-color: cadetblue;
+    height:80vh;
+    width:100%;
+align-items: center;
+text-align: center;
+
 }
 .btn{
     height: 40px;
@@ -9,4 +14,12 @@
 .btn{
     height: 30px;
     width: 100px;
+
+}
+
+.input{
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-right: 10px;
 }
